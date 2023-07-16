@@ -4,5 +4,24 @@
 }
 header{
     background-color: wheat;
+}
+nav{
     display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+.nav-titel{
+    font-size: 2.8rem;
+}
+nav li a{
+    text-decoration: none;
+    color: dimgrey;
 }
